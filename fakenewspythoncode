@@ -1,0 +1,10 @@
+data = pd.read_csv("C:/Users/Arnab/Desktop/kaggle datasets/news.csv") 
+data.head() 
+
+
+df = pd.DataFrame(data)
+df.head()
+df = df.replace({ "REAL" : 1, "FAKE": 0})
+
+
+df.head()
